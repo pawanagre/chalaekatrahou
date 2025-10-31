@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chalaekatrahou — Sample</title>
+  <meta name="description" content="Sample index.html for the chalaekatrahou repository" />
+  <style>
+    :root{--bg:#f7fafc;--card:#fff;--muted:#6b7280;--accent:#2563eb}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin:0;background:var(--bg);color:#111}
+    .container{max-width:960px;margin:48px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    h1{margin:0;font-size:1.6rem}
+    nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+    .hero{background:linear-gradient(90deg, rgba(37,99,235,0.08), transparent);border-radius:12px;padding:28px;margin-top:20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+    .card{background:var(--card);border-radius:10px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+    footer{margin-top:32px;color:var(--muted);font-size:0.9rem}
+    .btn{display:inline-block;padding:8px 12px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Chalaekatrahou</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Welcome</h2>
+      <p class="muted">This is a sample index.html file for the chalaekatrahou repository. Use it as a starter template.</p>
+      <p style="margin-top:12px"><a class="btn" href="#features">Explore features</a></p>
+    </section>
+
+    <section id="features">
+      <h3 style="margin-top:20px">Key features</h3>
+      <div class="grid">
+        <div class="card">
+          <strong>Easy to edit</strong>
+          <p class="muted">Minimal structure with inline styles for quick modifications.</p>
+        </div>
+        <div class="card">
+          <strong>Responsive</strong>
+          <p class="muted">Layout adapts using CSS grid and simple breakpoints.</p>
+        </div>
+        <div class="card">
+          <strong>Accessible</strong>
+          <p class="muted">Semantic HTML and proper structure to improve accessibility.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <p>Maintained by <strong>pawanagre</strong>. &nbsp;See the repository on GitHub.</p>
+    </footer>
+  </div>
+
+  <script>
+    // Small script: show a welcome message in the console
+    console.log('Chalaekatrahou — sample index.html loaded');
+  </script>
+</body>
+</html>
